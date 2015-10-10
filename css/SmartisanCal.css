@@ -1,0 +1,83 @@
+.container{
+	width: 552px;
+	height: 930px;
+	background-color: #E4E3E2;
+}
+.num-btn{
+	width: 109px;
+	height: 83px;
+	border-radius: 13px;
+	box-shadow: 1px 1px 1px rgba(82,82,82,1),1px 4px 9px rgba(147, 143, 143, 0.5);
+	float: left;
+	line-height: 84px;
+	text-align: center;
+	margin-left: 18px;
+	margin-bottom: 10px;
+}
+.num-btn:hover{
+	box-shadow: 1px 4px 2px rgba(188,188,188,0.5);
+}
+.black{background: url(../images/blackbtn.png) no-repeat;}
+.black.btn1{background-position: 0px -1px;}
+.black.btn2{background-position: -126px -1px;}
+.black.btn3{background-position: -253px -1px;}
+.black.btn4{background-position: -379px -1px;}
+
+.gray{background: url(../images/graybtn.png) no-repeat;}
+.gray.btn1{background-position: 0px 0px;}
+.gray.btn2{background-position: -127px 0px;}
+.gray.btn3{background-position: -254px 0px;}
+.gray.btn4{background-position: -380px 0px;}
+.gray.btn5{background-position: -1px -100px;}
+.gray.btn6{background-position: -129px -100px;}
+
+.white{background: url(../images/whitebtn.png) no-repeat;}
+.white.btn1{background-position: -3px 0px;}
+.white.btn2{background-position: -130px 0px;}
+.white.btn3{background-position: -257px 0px;}
+.white.btn4{background-position: -3px -109px;}
+.white.btn5{background-position: -130px -109px;}
+.white.btn6{background-position: -257px -109px;}
+.white.btn7{background-position: -3px -219px;}
+.white.btn8{background-position: -130px -219px;}
+.white.btn9{background-position: -257px -219px;}
+.white.btn10{background-position: -257px -328px;}
+
+.num-btn.long{
+	height: 192px;
+	background: url(../images/orangebtn.png) no-repeat;
+	background-position: -7px -6px;
+}
+.white.btn11{
+	width: 238px;
+	background: url(../images/bottombtn.png) no-repeat;
+	background-position: -1px 0px;
+}
+.top{
+	margin: 0 auto;
+	width: 440px;
+	height: 60px;
+	position: relative;
+	top: 14%;
+}
+.bottom{
+	margin: 0 auto;
+	width: 542px;
+	height: 560px;
+	position: relative;
+	top: 20%;
+}
+.down{
+	height: 100px;
+	width: 400px;
+	position: relative;
+	bottom: 108px;
+}
+.put{
+	height: 165px;
+	width: 493px;
+	position: relative;
+	top: -80px;
+	left: -32px;
+	background: url(../images/top.jpg);
+}
